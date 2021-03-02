@@ -1,0 +1,71 @@
+body {
+    box-sizing: border-box;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    margin-bottom: 60px;
+    padding: 5px;
+    /* background: url(https://images.unsplash.com/photo-1464802686167-b939a6910659?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8c3BhY2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-size: cover; */
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(155, 145, 145);
+    color: #000000;
+}
+
+ul {
+    text-align: center;
+    padding-right: 50px;
+}
+
+li {
+    display: inline;
+    padding: 30px;
+    font-weight: bold;
+}
+
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(149, 0, 255);
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    color: rgb(255, 8, 0);
+}
+
+a:active {
+    color: rgb(255, 0, 140);
+}
+
+img {
+    float: left;
+    margin-top: 30px;
+    box-shadow: 10px 10px 10px slategrey;
+}
+
+p, h2 {
+    padding-left: 20px;
+}
+
+section {
+    width: 770px;
+    float: right;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 50px 0px;
+    font-weight: bold;
+}
